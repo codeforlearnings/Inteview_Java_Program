@@ -8,6 +8,9 @@ public class InterviewJavaProgramApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(InterviewJavaProgramApplication.class, args);
+		System.out.println("hi java8");
+
 	}
+	
 
 }
