@@ -14,7 +14,7 @@ public class Program_Charactor_Count {
 
 	    //     List<Integer> cond = stream.filter(i1 -> i1 > 200).collect(Collectors.toList());
 
-	        String  aa = "Protijayi Gini";
+	        String  aa ="Protijayi Gini";
 	        
 	        String[] stringarray = aa.split("");
 

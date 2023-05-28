@@ -23,9 +23,9 @@ public class Program_Merging_Array {
         Collections.sort(li);
         System.out.println(li);
 
-List<List<Integer>> l2=Arrays.asList(li,number);
+        List<List<Integer>> l2=Arrays.asList(li,number);
 
-System.out.println("List data after merzing-"+l2);
+        System.out.println("List data after merzing-"+l2);
 
     }
 

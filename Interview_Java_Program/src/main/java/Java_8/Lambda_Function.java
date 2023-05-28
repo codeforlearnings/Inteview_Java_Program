@@ -2,10 +2,10 @@ package Java_8;
 /*
 . Lambdas are anonymous Functions, which does not have any name, No return type, No Modifiers.
 . Lambda are not associated with any class. Lambdas are functions.
-. They have a list of input parameters, body, return type and possible se of exceptions.
+. They have a list of input parameters, body, return type and possible set of exceptions.
 . Lambdas can be assigned to variables or passed as parameter.
 . Lambdas are the basic building blocks of Functional programming support in java.
-. Java 8 provvides ability to pass a piece of code as parameter to any method.
+. Java 8 provides ability to pass a piece of code as parameter to any method.
 . Passing code in methods is currently not very friendly in Java, Lambda    help us to make the code cleaner and more flexible.
 . Lambdas encourage behaviour parameterization over value parameterization.
 
