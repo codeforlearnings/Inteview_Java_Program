@@ -2,14 +2,14 @@ package Java_8;
 /*
 . A Functional interface is an interface that defines one and only one abstract method.
 . Functional interfaces provide support for lambda expressions and method references.
-. The major benefit of functional interface is we can use lambda expressions to instantiate them and avoid using anonymous class           implementation.
+. The major benefit of functional interface is we can use lambda expressions to instantiate them and avoid using anonymous class implementation.
 . A new annotation @FunctionalInterface has introduced to mark an interface as Functional interface.
 . Java has many functional interfaces in java.util.function package.
 . Functional interface can have many default method or static method.
 
 //invalid
 @FunctionalInterface
-interface I nter2{}
+interface Inter2{}
 
 //valid
 @FunctionalInterface
