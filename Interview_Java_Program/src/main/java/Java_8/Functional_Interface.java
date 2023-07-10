@@ -57,6 +57,10 @@ Callable ==> call()
 
 . Consumer - defines only one abstract method- accepts() - return void value
 
+. The apply() method takes an input and returns a result. It is used to apply a function to an argument and compute a result. 
+The apply() function is a method of functional interfaces, such as the function interface, that takes an argument of a specified 
+type and returns a result of a specified type.
+
 */
 
 import java.util.function.*;
