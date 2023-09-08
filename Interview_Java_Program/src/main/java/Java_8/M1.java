@@ -2,6 +2,7 @@ package Java_8;
 
 import java.util.*;
 import java.util.function.Consumer;
+import java.util.stream.Stream;
 
 public class M1 {
 
@@ -29,6 +30,15 @@ public class M1 {
 		list.forEach(System.out :: print);
 		System.out.println();
 		list.forEach(System.out :: println);
+		
+		Set<String> set = new HashSet<String>();
+		set.add("abc");
+		set.add("abc1");
+		set.add("ab1c");
+		set.add("a1bc");
+		set.add("1abc");
+		Stream<String> stream1 = set.stream();
+		stream1.forEach(System.out :: println);
 
 	}
 
